@@ -11,7 +11,6 @@ import com.lry.lostchildinfo.entity.po.ArticlePo;
 import com.lry.lostchildinfo.entity.pojo.Article;
 import com.lry.lostchildinfo.mapper.ArticleMapper;
 import com.lry.lostchildinfo.service.ArticleService;
-import com.lry.lostchildinfo.utils.SecurityUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,16 +1,13 @@
 package com.lry.lostchildinfo;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
 import com.baomidou.mybatisplus.generator.config.OutputFile;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
-import com.baomidou.mybatisplus.generator.fill.Column;
 import com.lry.lostchildinfo.entity.JwtProperties;
 import com.lry.lostchildinfo.entity.pojo.Article;
 import com.lry.lostchildinfo.service.ArticleService;
-import com.lry.lostchildinfo.utils.RedisUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
 import org.junit.jupiter.api.Test;
